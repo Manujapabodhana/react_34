@@ -1,9 +1,18 @@
 .navbar {
+  margin: 0;
+  padding: 10px 30px;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
-  padding: 10px 30px;
+  width: 100vw; /* Use viewport width for true full width */
+  box-sizing: border-box;
+  position: relative; /* Add position relative */
+  left: 50%; /* Move to center */
+  right: 50%; /* Move to center */
+  margin-left: -50vw; /* Pull back to full width */
+  height: 100px;
+  margin-right: -50vw; /* Pull back to full width */
 }
 
 .logo {

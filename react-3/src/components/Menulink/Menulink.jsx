@@ -1,11 +1,11 @@
 import React from 'react';
 import './Menulink.css';
 
-function Menulink({ name, href }) {
+function Menulink(props) {
   return (
-    <a href={href} className="link">
-      {name}
-    </a>
+    <>
+      <a href={props.href} className='link'>{props.name}</a>
+    </>
   );
 }
 

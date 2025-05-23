@@ -6,7 +6,7 @@ function HeaderContent() {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="/logo.png" alt="Logo" width="30" height="30" />
+        <img src="vite.svg" alt="Logo" width="30" height="30" />
       </div>
       <div className="menu">
         <Menulink name="Home" href="#home" />
